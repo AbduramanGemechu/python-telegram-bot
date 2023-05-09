@@ -1,0 +1,9 @@
+import telegram
+
+# Replace YOUR_BOT_TOKEN with your actual bot token
+bot = telegram.Bot(token='5866606016:AAFk1bYd-0h9cWuHo7P6XD0RP0iXx0A07v0')
+
+# Send a message to a specific chat ID
+chat_id = '123456789'  # Replace with the chat ID you want to send the message to
+message = 'Hello, world!'  # Replace with the message you want to send
+bot.send_message(chat_id=chat_id, text=message)
